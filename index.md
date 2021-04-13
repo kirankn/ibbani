@@ -1,7 +1,7 @@
 ## Document Management system for the cloud age 
 
 ### Coming soon
-Beta in progress. Please send an email to beta@ibbani.com to request beta access.
+Beta in progress. Please send an email to <beta@ibbani.com> to request beta access.
 
 ### Features & Use cases  
 
@@ -14,6 +14,6 @@ Beta in progress. Please send an email to beta@ibbani.com to request beta access
 - Integration with databases, APIs, enterprise apps - CRMs, ERPs, etc.
 
 
-### Support or Contact
+### Contact us
 
-Email: support@ibbani.com 
+Email: <support@ibbani.com> 
