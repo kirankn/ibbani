@@ -1,6 +1,4 @@
-## Ibbani
-
-Document Management system for the cloud age 
+## Document Management system for the cloud age 
 
 ### Coming soon
 Beta in progress. Please send an email to beta@ibbani.com to request beta access.
