@@ -342,6 +342,15 @@ body {
     opacity: 0.9;
 }
 
+/* Center the Get in Touch button */
+#contact .container {
+    text-align: center;
+}
+
+#contact .cta-button-large {
+    margin: 0 auto;
+}
+
 .about-image {
     margin-bottom: 40px;
     border-radius: 15px;
