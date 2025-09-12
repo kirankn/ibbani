@@ -1,0 +1,61 @@
+/* styles/legal.css */
+
+.legal-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.legal-content h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.legal-content h2 {
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: var(--accent-color);
+    border-bottom: 2px solid var(--light-bg);
+    padding-bottom: 10px;
+}
+
+.legal-content p, 
+.legal-content ul {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.legal-content ul {
+    padding-left: 30px;
+}
+
+.legal-content li {
+    margin-bottom: 15px;
+}
+
+.legal-content a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.legal-content a:hover {
+    color: var(--primary-color);
+}
+
+.legal-content hr {
+    border: 0;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 50px 0;
+}
+
+.legal-content em {
+    font-style: italic;
+    color: #333;
+}
