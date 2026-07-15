@@ -4,131 +4,189 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ibbani, Inc. | Igniting Innovation, Cultivating Ventures</title>
+    <meta name="description" content="Ibbani is a venture studio building transformative companies — including Chukki, an AI-driven oncology decision support platform powered by real-world evidence and clinical insights.">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="animations.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
             <a href="#" class="logo">
-                <svg class="logo-icon" width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="logo-icon" width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     <rect width="32" height="32" rx="8" fill="currentColor"/>
                     <circle cx="16" cy="8" r="3" fill="white"/>
                     <rect x="13" y="12" width="6" height="16" rx="2" fill="white"/>
                 </svg>
                 <span>Ibbani</span>
             </a>
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#vision">Vision</a>
                 <a href="#what-we-do">Services</a>
+                <a href="#chukki">Chukki</a>
                 <a href="#contact" class="cta-button">Contact Us</a>
             </div>
         </div>
     </nav>
 
     <header class="hero">
-        <div class="container">
-            <div class="hero-overlay"></div>
-            <h1 class="fade-in">Igniting Innovation,<br>Cultivating Ventures.</h1>
-            <p class="subtitle fade-in-delay">More than just a venture studio. We are a hub of innovation.</p>
-            <a href="#about" class="cta-button-large fade-in-delay">Learn More</a>
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-veil"></div>
+        <div class="container hero-content">
+            <p class="brand-mark fade-in">Ibbani</p>
+            <h1 class="fade-in-delay">Igniting innovation.<br>Cultivating ventures.</h1>
+            <p class="subtitle fade-in-delay-2">A venture studio where transformative ideas become lasting companies.</p>
+            <a href="#about" class="cta-button-large fade-in-delay-2">Discover Ibbani</a>
         </div>
     </header>
 
     <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title">About Ibbani</h2>
-            <div class="content-grid">
-                <div class="about-image scroll-fade">
-                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80" alt="Innovation Hub at Ibbani">
+            <div class="section-intro scroll-fade">
+                <p class="eyebrow">About</p>
+                <h2 class="section-title">Built to bring bold ideas to life</h2>
+            </div>
+            <div class="about-layout">
+                <div class="about-visual scroll-fade">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80" alt="Ibbani team collaborating on new ventures">
                 </div>
-                <div class="text-content scroll-fade">
-                    <p>At Ibbani, Inc., we are more than just a venture studio. We are a hub of innovation, driven by the pursuit of transformative ideas and dedicated to bringing them to life.</p>
+                <div class="about-copy scroll-fade">
+                    <p>At Ibbani, Inc., we are more than a venture studio. We are a hub of innovation — driven by the pursuit of transformative ideas and dedicated to bringing them to life.</p>
                     <p>Our mission is to discover, build, and scale disruptive startups by providing a full-spectrum platform of resources, mentorship, and operational expertise.</p>
                 </div>
             </div>
-            <div class="leadership-section scroll-fade">
-                <h3 class="subsection-title">Our Leadership</h3>
+
+            <div class="leadership-section">
+                <div class="section-intro scroll-fade">
+                    <p class="eyebrow">Leadership</p>
+                    <h3 class="subsection-title">The people guiding Ibbani</h3>
+                </div>
                 <div class="leaders-grid">
-                    <div class="leader-card">
-                        <div class="leader-info">
-                            <h4>Asha Sharath</h4>
-                            <p class="leader-title">Founder & CEO</p>
-                            <p class="leader-bio">
-                                A visionary leader with extensive experience in technology and innovation.
-                                Primarily an architect by profession, Asha regularly works with cutting-edge technology
-                                and brings extensive expertise in enterprise software and digital transformation.
-                                As an established entrepreneur, she has successfully led multiple strategic initiatives
-                                and built high-performing teams.
-                            </p>
-                            <a href="https://www.linkedin.com/in/asha-sharath-97a8aa1/" class="social-link" target="_blank" rel="noopener noreferrer">
-                                <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                                </svg>
-                                Connect on LinkedIn
-                            </a>
-                        </div>
-                    </div>
-                    <div class="leader-card">
-                        <div class="leader-info">
-                            <h4>Vasundhara Kiran</h4>
-                            <p class="leader-title">Director</p>
-                            <p class="leader-bio">
-                                A technology leader with over 10 years of experience specializing in EdTech and HealthTech solutions. 
-                                Vasundhara brings deep expertise in building scalable platforms and innovative digital solutions. 
-                                Her experience spans across educational technology and healthcare innovations, driving digital 
-                                transformation in these critical sectors.
-                            </p>
-                        </div>
-                    </div>
+                    <article class="leader scroll-fade">
+                        <h4>Vasundhara Kiran</h4>
+                        <p class="leader-title">Founder &amp; CEO</p>
+                        <p class="leader-bio">
+                            A technology leader with deep experience across EdTech and HealthTech.
+                            Vasundhara specializes in building scalable platforms and innovative digital solutions,
+                            with a track record of driving transformation in education and healthcare.
+                            As Founder &amp; CEO, she sets Ibbani’s vision and steers its portfolio of ventures.
+                        </p>
+                    </article>
+                    <article class="leader scroll-fade">
+                        <h4>Varunee Venkat</h4>
+                        <p class="leader-title">Director</p>
+                        <p class="leader-bio">
+                            A strategic operator focused on venture building, partnerships, and execution excellence.
+                            Varunee brings a sharp eye for market opportunity and operational rigor,
+                            helping Ibbani’s companies move from concept to traction with clarity and speed.
+                        </p>
+                    </article>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="vision" class="section bg-light">
+    <section id="vision" class="section section-mist">
         <div class="container">
-            <h2 class="section-title">Our Vision</h2>
-            <div class="vision-card scroll-fade">
-                <p>We envision a future where groundbreaking ideas seamlessly transition from concept to scalable businesses. By fostering a collaborative ecosystem that blends entrepreneurial drive with strategic guidance, we aim to create lasting ventures that drive societal change and economic impact.</p>
+            <div class="vision-block scroll-fade">
+                <p class="eyebrow">Vision</p>
+                <h2 class="section-title">From spark to scalable impact</h2>
+                <p class="vision-text">We envision a future where groundbreaking ideas move seamlessly from concept to scalable businesses. By fostering a collaborative ecosystem that blends entrepreneurial drive with strategic guidance, we create lasting ventures that drive societal change and economic impact.</p>
             </div>
         </div>
     </section>
 
     <section id="what-we-do" class="section">
         <div class="container">
-            <h2 class="section-title">What We Do</h2>
-            <div class="services-grid">
-                <div class="service-card scroll-fade">
-                    <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&q=80" alt="Ideation Process" class="service-image">
-                    <h3>Ideation</h3>
-                    <p>We provide the spark that fuels new ventures, helping to transform creative ideas into executable business models.</p>
-                </div>
-                <div class="service-card scroll-fade">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80" alt="Incubation Process" class="service-image">
-                    <h3>Incubation</h3>
-                    <p>Through strategic partnerships and hands-on support, we provide a fertile ground for startups to grow and thrive.</p>
-                </div>
-                <div class="service-card scroll-fade">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80" alt="Acceleration Process" class="service-image">
-                    <h3>Acceleration</h3>
-                    <p>With a focus on scaling and sustainable growth, we provide mentorship, market access, and operational excellence.</p>
-                </div>
+            <div class="section-intro scroll-fade">
+                <p class="eyebrow">Services</p>
+                <h2 class="section-title">What we do</h2>
+                <p class="section-lede">End-to-end support across the venture journey — from first spark to lasting scale.</p>
+            </div>
+            <div class="services-list">
+                <article class="service scroll-fade">
+                    <div class="service-visual">
+                        <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=900&q=80" alt="Founders sketching venture ideas">
+                    </div>
+                    <div class="service-copy">
+                        <h3>Ideation</h3>
+                        <p>We provide the spark that fuels new ventures, helping transform creative ideas into executable business models.</p>
+                    </div>
+                </article>
+                <article class="service scroll-fade">
+                    <div class="service-visual">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80" alt="Team incubation workshop">
+                    </div>
+                    <div class="service-copy">
+                        <h3>Incubation</h3>
+                        <p>Through strategic partnerships and hands-on support, we create a fertile ground for startups to grow and thrive.</p>
+                    </div>
+                </article>
+                <article class="service scroll-fade">
+                    <div class="service-visual">
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=900&q=80" alt="Scaling a venture with mentorship">
+                    </div>
+                    <div class="service-copy">
+                        <h3>Acceleration</h3>
+                        <p>With a focus on scaling and sustainable growth, we deliver mentorship, market access, and operational excellence.</p>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section bg-dark">
+    <section id="chukki" class="section section-chukki">
+        <div class="chukki-hero-plane scroll-fade">
+            <img src="assets/chukki-oncology-ai.jpg" alt="Chukki — AI-driven oncology decision support with real-world evidence and clinical insights">
+        </div>
         <div class="container">
-            <h2 class="section-title light">Join Us in Building the Future</h2>
-            <div class="contact-info scroll-fade">
-                <div class="contact-card">
+            <div class="chukki-content scroll-fade">
+                <p class="eyebrow">Portfolio · Healthcare AI</p>
+                <h2 class="section-title">Chukki</h2>
+                <p class="chukki-tagline">An AI-driven medical decision support system for oncology — grounded in real-world evidence, clinical data, and actionable insights.</p>
+                <p class="chukki-body">
+                    Chukki helps clinicians and care teams navigate complex oncology decisions with clarity.
+                    By unifying real-world evidence, longitudinal patient data, and intelligent analytics,
+                    it surfaces the insights that matter — treatment patterns, outcomes signals, and evidence-backed recommendations —
+                    so care teams can act with greater confidence at every stage of the cancer journey.
+                </p>
+                <ul class="chukki-pillars">
+                    <li>
+                        <strong>Oncology focus</strong>
+                        <span>Purpose-built for cancer care pathways, from diagnosis through treatment selection and follow-up.</span>
+                    </li>
+                    <li>
+                        <strong>Real-world evidence</strong>
+                        <span>Turns population-level outcomes and practice patterns into decision-ready clinical context.</span>
+                    </li>
+                    <li>
+                        <strong>Data &amp; insights</strong>
+                        <span>Transforms fragmented healthcare data into clear, trustworthy signals for care and research teams.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+        <div class="container">
+            <div class="contact-layout scroll-fade">
+                <div>
+                    <p class="eyebrow light">Contact</p>
+                    <h2 class="section-title light">Join us in building the future</h2>
+                    <p class="contact-text">Whether you’re an entrepreneur with a bold idea, an investor seeking the next opportunity, or an industry leader ready to shape what comes next — we invite you to join our community of innovators.</p>
+                    <a href="mailto:contact@ibbani.com" class="cta-button-large">Get in Touch</a>
+                </div>
+                <div class="office">
                     <h3>Our Office</h3>
                     <address>
                         1 Chestnut Hill Plaza #1125<br>
@@ -137,8 +195,6 @@
                     </address>
                 </div>
             </div>
-            <p class="contact-text">Whether you're an entrepreneur with a bold idea, an investor looking for the next big opportunity, or an industry leader ready to shape the future, we invite you to join our community of innovators.</p>
-            <a href="mailto:contact@ibbani.com" class="cta-button-large">Get in Touch</a>
         </div>
     </section>
 
@@ -153,17 +209,18 @@
                     <a href="#about">About</a>
                     <a href="#vision">Vision</a>
                     <a href="#what-we-do">Services</a>
+                    <a href="#chukki">Chukki</a>
                     <a href="#contact">Contact</a>
                     <a href="privacy.html">Privacy Policy</a>
                     <a href="terms.html">Terms of Service</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Ibbani, Inc. All rights reserved.</p>
+                <p>&copy; 2026 Ibbani, Inc. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <script src="animations.js"></script>
 </body>
-</html> 
+</html>

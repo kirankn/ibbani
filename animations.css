@@ -1,20 +1,28 @@
 .fade-in {
     opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 0.8s ease forwards;
+    transform: translateY(24px);
+    animation: fadeIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 .fade-in-delay {
     opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 0.8s ease forwards;
-    animation-delay: 0.3s;
+    transform: translateY(24px);
+    animation: fadeIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation-delay: 0.2s;
+}
+
+.fade-in-delay-2 {
+    opacity: 0;
+    transform: translateY(24px);
+    animation: fadeIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation-delay: 0.4s;
 }
 
 .scroll-fade {
     opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s ease;
+    transform: translateY(36px);
+    transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .scroll-fade.visible {
@@ -27,4 +35,36 @@
         opacity: 1;
         transform: translateY(0);
     }
-} 
+}
+
+@keyframes heroDrift {
+    from {
+        transform: scale(1.04) translate3d(0, 0, 0);
+    }
+    to {
+        transform: scale(1.1) translate3d(-1.5%, -1%, 0);
+    }
+}
+
+@keyframes gentleZoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.06);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fade-in,
+    .fade-in-delay,
+    .fade-in-delay-2,
+    .scroll-fade,
+    .hero-media,
+    .chukki-hero-plane img {
+        animation: none !important;
+        transition: none !important;
+        opacity: 1;
+        transform: none;
+    }
+}
